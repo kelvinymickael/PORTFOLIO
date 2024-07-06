@@ -1,0 +1,46 @@
+.aside {
+  width: 270px;
+  height: 100vh;
+  background-color: #00203c;
+  position: fixed;
+  top: 0;
+  right: -31rem;
+  transition: 0.4s ease;
+}
+
+.aside.asideIsActive {
+  right: 0;
+}
+
+.asideMenu {
+  padding: 2rem;
+}
+
+.asideMenuClose {
+  text-align: right;
+  margin-bottom: 2.8rem;
+  margin-top: 2.4rem;
+}
+
+.asideMenuClose button {
+  background-color: transparent;
+  border: none;
+}
+
+.asideMenuClose svg {
+  cursor: pointer;
+  color: #fefefe;
+  font-size: 2.8rem;
+}
+
+.asideMenuLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1.2rem;
+}
+
+.asideMenuLinks li a {
+  font-weight: 500;
+  color: #fefefe;
+}

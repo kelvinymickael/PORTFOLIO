@@ -1,0 +1,96 @@
+{
+  "translation": {
+    "header": {
+      "home": "Inicio",
+      "about": "Sobre",
+      "skills": "Habilidades",
+      "projects": "Projetos",
+      "contactMe": "Contato"
+    },
+    "home": {
+      "homeWaving": "Olá!",
+      "name1": "Sou",
+      "name2": "Kelviny Mickael",
+      "name3": "desenvolvedor",
+      "name4": "Front-End"
+    },
+    "button": {
+      "buttonDownload": "Baixar Currículo"
+    },
+    "about": {
+      "aboutMe": "Meu nome é Kelviny Mickael, sou um desenvolvedor web front-end focado em resolver soluções práticas e eficientes. Minhas especialidades incluem a geração de ideias para sites e a codificação de interfaces front-end para criar experiências on-line satisfatórias para clientes e usuários. Sou profundamente apaixonado pelo desenvolvimento de aplicativos da Web que agregam valor à vida das pessoas. Vamos codificar algo juntos! 💻"
+    },
+    "skills": {
+      "tip": "Dica!",
+      "infosTip": "Passe o ponteiro do mouse por cima de cada tecnologia!",
+      "techHTML5": {
+        "langName": "HTML5",
+        "aboutLang": "O HTML define o conteúdo de todas as páginas da internet, marcando um conteúdo com tags HTML para informar ao navegador como diferentes elementos devem se comportar."
+      },
+      "techCSS3": {
+        "langName": "CSS3",
+        "aboutLang": "O CSS é a linguagem de estilo que é utilizada para estilizar os elementos que são criados com o HTML, e é a linguagem que é responsável por criar a aparência dos elementos que são exibidos na tela, como cores, fontes, tamanhos, etc."
+      },
+      "techJS": {
+        "langName": "JavaScript",
+        "aboutLang": "O JavaScript é a linguagem de programação que é utilizada para criar a interatividade dos sites, e é a linguagem que é responsável por criar a interatividade dos elementos que são exibidos na tela, como animações, efeitos, etc."
+      },
+      "techSASS": {
+        "langName": "Sass",
+        "aboutLang": "Sass é um CSS com 'super poderes' e que vai ajudar no processo de criação e desenvolvimento no estilo do seu projeto."
+      },
+      "techGIT": {
+        "langName": "Git",
+        "aboutLang": "O git é um sistema de controle de versão de códigos. Gerencia ramificações feitas por diferentes pessoas de um time de modo a manter a ordem e integração de todas as partes."
+      },
+      "techGITHUB": {
+        "langName": "GitHub",
+        "aboutLang": "O Github é uma “rede social dev” em que é possível armazenar e compartilhar projetos de desenvolvimento de software."
+      },
+      "techFIGMA": {
+        "langName": "Figma",
+        "aboutLang": "O Figma é uma plataforma online de criação de interfaces, wireframes e protótipos. Seu papel é oferecer recursos de design de telas para aplicações variadas, permitindo que times de Design trabalhem em conjunto no mesmo projeto remotamente e simultaneamente."
+      },
+      "techREACTJS": {
+        "langName": "ReactJS",
+        "aboutLang": "O React é uma poderosa biblioteca para construção de interfaces visuais em JavaScript. Ou seja, é uma ferramenta ideal para o desenvolvimento front-end. No React, você pode adotar estruturas do HTML e do JavaScript em um só código, a fim de manipular os aspectos da apresentação de um site."
+      }
+    },
+    "contactMe": {
+      "inputName": "Nome:",
+      "inputEmail": "E-mail:",
+      "inputMessage": "Mensagem...",
+      "buttonSendMessage": "Enviar Mensagem"
+    },
+    "pageNotFount": "Página não encontrada",
+    "infosNotFound": "Você parece ter se perdido... Tente voltar à página anterior ou acessar a página inicial.",
+    "buttonGoToHome": "Voltar ao início",
+    "projectInfos": {
+      "techsUsedTitleDefault": "Tecnologias utilizadas no projeto:",
+      "projectB7Burger": {
+        "descriptionProject": "Projeto de um menu online para hamburgueria."
+      },
+      "projectPayPulse": {
+        "descriptionProject": "Esse é um projeto de uma LP que traz informações sobre um app bancário."
+      },
+      "projectEducaPlus": {
+        "descriptionProject": "O layout desse projeto foi disponibilizado por: Futuro Dev - John. E com base nesse layout eu consegui aplicar alguns dos conhecimentos obtido durante o meu curso de ReactJS."
+      },
+      "projectGitHubAPI": {
+        "descriptionProject": "Esse é um projeto desenvolvido utilizando a API pública do GitHub. Esse projeto tem como funcionalidade fazer a buscar e exibição de informações de um determinado perfil aqui na plataforma do GitHub."
+      },
+      "projectNetflixClone": {
+        "descriptionProject": "Esse projeto foi desenvolvido junto com o professor Bonieky Lacerda durante uma live que ele fez no seu canal do YouTube."
+      },
+      "projectPlayerVR": {
+        "descriptionProject": "Esse foi um dos projeto desenvolvido durante o #boracodar feito pela rocketseat. Um player vr que possui um jogo de cores em volta do vídeo."
+      },
+      "projectMovieRecommendation": {
+        "descriptionProject": "Esse foi mais um dos projeto desenvolvido durante o #boracodar feito pela rocketseat. Esse é um projeto de recomendação de filmes utilizando a API do TMDB."
+      },
+      "projectPlayerOfMusic": {
+        "descriptionProject": "O #boracodar é uma realização feita pela a rocketseat, onde toda semana será enviado um desafio no site do boracodar. E no projeto da semana 01 foi disponibilizado esse layout de um player de música."
+      }
+    }
+  }
+}

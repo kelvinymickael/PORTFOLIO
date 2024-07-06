@@ -1,0 +1,21 @@
+.btnFill,
+.btnOutline {
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0.4rem;
+}
+
+.btnFill {
+  padding: 1.6rem 3.8rem;
+  background-color: #003b6f;
+  font-size: 1.6rem;
+  border: none;
+}
+
+.btnOutline {
+  padding: 2rem 7.2rem;
+  border: 0.1rem solid #6f8ea9;
+  background-color: transparent;
+  font-size: 2.4rem;
+}

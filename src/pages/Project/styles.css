@@ -1,0 +1,90 @@
+.projectContainer {
+  width: 100%;
+  margin: 9rem auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem 2rem;
+  position: relative;
+  top: -2.8rem;
+}
+
+.projectDetails {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5.6rem;
+}
+
+.projectImage img {
+  width: 100%;
+  border-radius: 1.2rem;
+  box-shadow: 0.4rem 0.4rem 1.2rem .1rem #00000025;
+}
+
+.projectInfos {
+  color: #fefefe;
+}
+
+.projectInfos h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.projectInfos p {
+  margin: 2.4rem 0;
+  max-width: 54rem;
+}
+
+.projectTechnologies {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.projectTechnologies h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.projectTechnologies ul {
+  margin-bottom: 3.8rem;
+}
+
+.projectTechnologies ul li {
+  list-style: disc;
+  font-size: 1.4rem;
+  font-weight: 400;
+  list-style-position: inside;
+}
+
+.projectView {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.projectView svg {
+  font-size: 2.4rem;
+  cursor: pointer;
+  color: #fefefe;
+}
+
+/* Mode Dark: */
+body.dark .projectInfos {
+  color: #fefefe;
+}
+
+body.light .projectInfos,
+body.light .projectView svg {
+  color: #00060b;
+}
+
+/* Responsive: */
+@media (max-width: 366px) {
+  .projectInfos h2 {
+    font-size: 3rem;
+  }
+}

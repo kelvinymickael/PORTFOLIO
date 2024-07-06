@@ -1,0 +1,128 @@
+.about {
+  max-width: 144rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 4.8rem);
+}
+
+.aboutContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.5rem;
+  position: relative;
+  top: -4.6rem;
+  padding: 0 2rem;
+}
+
+.aboutMyImage {
+  width: 30%;
+  animation: revealMyImage 560ms ease-out;
+}
+
+@keyframes revealMyImage {
+  0% {
+    transform: translateX(-20rem);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.aboutMyImage img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0.2rem 0.1rem 1.2rem #00000067;
+}
+
+.aboutInfos {
+  width: 40%;
+  position: relative;
+  animation: revealInfos 560ms ease-out;
+
+}
+
+@keyframes revealInfos {
+  0% {
+    transform: translateX(20rem);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.aboutInfos p {
+  color: #00060b;
+  font-size: 1.8rem;
+  line-height: 164%;
+}
+
+/* .aboutInfos::before {
+  content: "";
+  display: inline-block;
+  width: 0.2rem;
+  height: 6.8rem;
+  background-color: #003b6f;
+  border-radius: 3rem;
+  position: absolute;
+  top: 8rem;
+  left: -2.3rem;
+} */
+
+/* Mode Dark: */
+body.dark .aboutInfos p {
+  color: #fefefe;
+}
+
+/* Responsive: */
+@media (max-width: 970px) {
+  .aboutContent {
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+
+  .aboutInfos {
+    width: 70%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 404px) {
+  .headerLogo a h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .about {
+    padding: 0 2rem;
+    margin-top: 9rem;
+  }
+
+  .aboutContent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutMyImage {
+    width: 100%;
+    max-width: 21.6rem;
+  }
+
+  .aboutInfos {
+    margin-bottom: 8rem;
+    width: 120%;
+  }
+
+  .aboutInfos::before {
+    top: -5.7rem;
+    left: 13.1rem;
+    transform: rotate(271deg);
+  }
+}

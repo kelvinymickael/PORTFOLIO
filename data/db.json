@@ -1,0 +1,159 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "imageLocation": "/personalProject1.jpg",
+      "techs": ["/react.svg"],
+      "viewProject": "https://kelvinymickael.github.io/B7BURGER/",
+      "githubLink": "https://github.com/kelvinymickael"
+    },
+    {
+      "id": 2,
+      "imageLocation": "/personalProject2.jpg",
+      "techs": ["/html.svg", "/css.svg", "/javascript.svg"],
+      "viewProject": "https://kelvinymickael.github.io/PAYPULSE/",
+      "githubLink": "https://github.com/kelvinymickael"
+    },
+    {
+      "id": 3,
+      "imageLocation": "/personalProject3.jpg",
+      "techs": ["/react.svg"],
+      "viewProject": "https://kelvinymickael.github.io/EDUCA_PLUS/",
+      "githubLink": "https://github.com/kelvinymickael"
+    },
+    {
+      "id": 4,
+      "imageLocation": "/personalProject4.jpg",
+      "techs": ["/html.svg", "/css.svg", "/javascript.svg"],
+      "viewProject": "https://kelvinymickael.github.io/GITHUB-API/",
+      "githubLink": "https://github.com/kelvinymickael"
+    },
+    {
+      "id": 5,
+      "imageLocation": "/personalProject5.jpg",
+      "techs": ["/react.svg"],
+      "viewProject": "https://kelvinymickael.github.io/NETFLIX_CLONE/",
+      "githubLink": "https://github.com/kelvinymickael"
+    },
+    {
+      "id": 6,
+      "imageLocation": "/personalProject6.jpg",
+      "techs": ["/html.svg", "/sass.svg", "/javascript.svg"],
+      "viewProject": "https://kelvinymickael.github.io/ROCKETSEAT_PLAYER_VR/",
+      "githubLink": "https://github.com/kelvinymickael"
+    },
+    {
+      "id": 7,
+      "imageLocation": "/personalProject7.jpg",
+      "techs": ["/html.svg", "/sass.svg", "/javascript.svg"],
+      "viewProject": "https://kelvinymickael.github.io/ROCKETSEAT_MOVIE_RECOMMENDATION/",
+      "githubLink": "https://github.com/kelvinymickael"
+    },
+    {
+      "id": 8,
+      "imageLocation": "/personalProject8.jpg",
+      "techs": ["/html.svg", "/css.svg", "/javascript.svg"],
+      "viewProject": "https://kelvinymickael.github.io/PLAYER_OF_MUSIC/",
+      "githubLink": "https://github.com/kelvinymickael"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "imageProject": "/imageProjectB7Burger.jpg",
+      "titleProject": "B7Burger - ReactJS",
+      "descriptionProject": "Projeto de um menu online para hamburgueria.",
+      "techsUsedInTheProject": [
+        "ReactJS",
+        "React Router Dom",
+        "React Icons",
+        "CSS Modules",
+        "Figma (UI)"
+      ],
+      "githubLink": "https://github.com/kelvinymickael/B7BURGER",
+      "liveDemoLink": "https://kelvinymickael.github.io/B7BURGER/",
+      "figmaLink": "https://www.figma.com/design/LNiScTkRfHfVKSFzSWnmic/Projeto-B7Burger?node-id=0-1&t=cNuw3IKGWviNFbdP-0"
+    },
+    {
+      "id": 2,
+      "imageProject": "/imageProjectPayPulse.jpg",
+      "titleProject": "PayPulse",
+      "descriptionProject": "Esse é um projeto de uma LP que traz informações sobre um app bancário.",
+      "techsUsedInTheProject": ["HTML5", "CSS3", "JavaScript", "Figma (UI)"],
+      "githubLink": "https://github.com/kelvinymickael/PAYPULSE",
+      "liveDemoLink": "https://kelvinymickael.github.io/PAYPULSE/",
+      "figmaLink": "https://www.figma.com/design/MzREz19E7P6bYxyrlQIbdf/Projeto-PayPulse?node-id=0-1&t=T2dHutwg2KF4YmxZ-0"
+    },
+    {
+      "id": 3,
+      "imageProject": "/imageProjectEducaPlus.jpg",
+      "titleProject": "Educa+ - ReactJS",
+      "descriptionProject": "O layout desse projeto foi disponibilizado por: Futuro Dev - John. E com base nesse layout eu consegui aplicar alguns dos conhecimentos obtido durante o meu curso de ReactJS.",
+      "techsUsedInTheProject": [
+        "ReactJS",
+        "React Router Dom",
+        "React Icons",
+        "Figma (UI)"
+      ],
+      "githubLink": "https://github.com/kelvinymickael/EDUCA_PLUS",
+      "liveDemoLink": "https://kelvinymickael.github.io/EDUCA_PLUS/",
+      "figmaLink": "https://www.figma.com/design/uNOG7BGVyCZPSt43HBvHAr/Projeto-Educa%2B?node-id=0-1&t=CFrHu8azrz9RDyHb-0"
+    },
+    {
+      "id": 4,
+      "imageProject": "/imageProjectGitHubAPI.jpg",
+      "titleProject": "GitHub API",
+      "descriptionProject": "Esse é um projeto desenvolvido utilizando a API pública do GitHub. Esse projeto tem como funcionalidade fazer a buscar e exibição de informações de um determinado perfil aqui na plataforma do GitHub.",
+      "techsUsedInTheProject": ["HTML5", "SCSS", "JavaScript", "Figma (UI)"],
+      "githubLink": "https://github.com/kelvinymickael/GITHUB-API",
+      "liveDemoLink": "https://kelvinymickael.github.io/GITHUB-API/",
+      "figmaLink": "https://www.figma.com/design/WuCIgTNMjkRw88COwNcdzH/Project-GitHub-With-API?m=auto&t=VtuSfIyYFfCJK1JT-6"
+    },
+    {
+      "id": 5,
+      "imageProject": "/imageProjectNetflixClone.jpg",
+      "titleProject": "NetFlix Clone - ReactJS",
+      "descriptionProject": "Esse projeto foi desenvolvido junto com o professor Bonieky Lacerda durante uma live que ele fez no seu canal do YouTube.",
+      "techsUsedInTheProject": ["ReactJS", "React Icons", "MUI", "API TMDB"],
+      "githubLink": "https://github.com/kelvinymickael/NETFLIX_CLONE",
+      "liveDemoLink": "https://kelvinymickael.github.io/NETFLIX_CLONE/",
+      "figmaLink": ""
+    },
+    {
+      "id": 6,
+      "imageProject": "/imageProjectAmbientLight.jpg",
+      "titleProject": "RocketSeat - Player VR",
+      "descriptionProject": "Esse foi um dos projeto desenvolvido durante o #boracodar feito pela rocketseat. Um player vr que possui um jogo de cores em volta do vídeo.",
+      "techsUsedInTheProject": ["HTML5", "SCSS", "JavaScript", "Figma (UI)"],
+      "githubLink": "https://github.com/kelvinymickael/ROCKETSEAT_PLAYER_VR",
+      "liveDemoLink": "https://kelvinymickael.github.io/ROCKETSEAT_PLAYER_VR/",
+      "figmaLink": "https://www.figma.com/design/rRFnh4VAepUoASm3G4nRJS/Player-de-VR-%E2%80%A2-Desafio-25-(Community)?node-id=0-1&t=cfPatKIKeOeoBfTq-0"
+    },
+    {
+      "id": 7,
+      "imageProject": "/imageProjectMovieRecommendation.jpg",
+      "titleProject": "RocketSeat - Movie Recommendation",
+      "descriptionProject": "Esse foi mais um dos projeto desenvolvido durante o #boracodar feito pela rocketseat. Esse é um projeto de recomendação de filmes utilizando a API do TMDB.",
+      "techsUsedInTheProject": [
+        "HTML5",
+        "SCSS",
+        "JavaScript",
+        "API TMDB",
+        "Figma (UI)"
+      ],
+      "githubLink": "https://github.com/kelvinymickael/ROCKETSEAT_MOVIE_RECOMMENDATION",
+      "liveDemoLink": "https://kelvinymickael.github.io/ROCKETSEAT_MOVIE_RECOMMENDATION/",
+      "figmaLink": "https://www.figma.com/design/A7PuSz1kEdCQbUv5wrJ2Dv/Recomenda%C3%A7%C3%A3o-de-Filme-com-IA-%E2%80%A2-Desafio-30-(Community)?m=auto&t=VtuSfIyYFfCJK1JT-6"
+    },
+    {
+      "id": 8,
+      "imageProject": "/imageProjectPlayerOfMusic.jpg",
+      "titleProject": "RocketSeat - Player Of Music",
+      "descriptionProject": "O #boracodar é uma realização feita pela a rocketseat, onde toda semana será enviado um desafio no site do boracodar. E no projeto da semana 01 foi disponibilizado esse layout de um player de música.",
+      "techsUsedInTheProject": ["HTML5", "CSS", "JavaScript", "Figma (UI)"],
+      "githubLink": "https://github.com/kelvinymickael/PLAYER_OF_MUSIC",
+      "liveDemoLink": "https://kelvinymickael.github.io/PLAYER_OF_MUSIC/",
+      "figmaLink": "https://www.figma.com/design/0WtIJXlkZgKRYMB38RjDDC/Player-De-M%C3%BAsica?m=auto&t=VtuSfIyYFfCJK1JT-6"
+    }
+  ]
+}

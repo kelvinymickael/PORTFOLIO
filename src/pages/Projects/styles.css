@@ -1,0 +1,74 @@
+.containerCards {
+  max-width: 80.4rem;
+  margin: 9rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem 2rem;
+  position: relative;
+  top: -2.8rem;
+}
+
+.containerCards .card {
+  cursor: pointer;
+  animation: revealProjects 560ms ease-out;
+}
+
+@keyframes revealProjects {
+  0% {
+    scale: 1.2;
+    opacity: 0;
+  }
+}
+
+/* .loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loader {
+  border: 4px solid #00203c;
+  border-left-color: transparent;
+  border-radius: 50%;
+}
+
+.loader {
+  border: 4px solid #00203c;
+  border-left-color: transparent;
+  width: 36px;
+  height: 36px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
+/* Mode Dark: */
+body.dark .loader {
+  border: 4px solid #fefefe;
+  border-left-color: transparent;
+}
+
+/* Responsive: */
+@media (max-width: 360px) {
+  .containerCards {
+    max-height: 53.7rem;
+    overflow: auto;
+    scrollbar-width: none;
+    gap: 3.4rem 2rem;
+  }
+
+  .containerCards {
+    top: -4rem;
+  }
+}
