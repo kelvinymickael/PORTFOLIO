@@ -30,9 +30,6 @@ const Contact = () => {
       toast.error("Por favor, preencha os campos abaixo!");
     } else {
       toast.success("Mensagem enviada com sucesso!");
-      setName("");
-      setEmail("");
-      setMessage("");
     }
   };
 
@@ -53,7 +50,9 @@ const Contact = () => {
     );
 
     if (response.status === 200) {
-      console.log("Ok!");
+      setName("");
+      setEmail("");
+      setMessage("");
     }
   };
 
