@@ -61,7 +61,7 @@ textarea::placeholder {
 .contactForm button:hover {
   transform: scale(1.02);
   background-color: transparent;
-  color: #fefefe;
+  color: #003b6f;
 }
 
 /* Mode Dark: */
